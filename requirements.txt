@@ -1,0 +1,6 @@
+gradio diffusers torch transformers accelerate
+gradio
+diffusers
+torch
+transformers
+accelerate
