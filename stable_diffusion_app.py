@@ -22,6 +22,8 @@ def generate_image(prompt):
     return image
 
 # Create Gradio UI
+def greet(name):
+    return "Hello " + name + "!!"
 demo = gr.Interface(
     fn=generate_image,
     inputs=gr.Textbox(label="Enter a prompt"),
